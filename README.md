@@ -1,3 +1,18 @@
+## FORK README
+### NOTE
+
+This is a monkey-patch to get it working on windows with modern (3.x.x) OpenSSL.
+Beware, it's barely tested (and the original code is 8 years old)
+SRC also now has test table and hashes.txt for your pleasure
+
+### INSTALLATION (WINDOWS)
+- Install OpenSSL from https://slproweb.com/products/Win32OpenSSL.html
+- Launch x64 Native Tools Command Prompt for VS 20** (This opens CMD, continue in it)
+- Go to .../RainbowCrack-NG/src (Wherever you cloned it)
+- Run nmake -f makefile.win
+Shouldn't break the linux, but who the fuck knows, if it did
+
+## OG README
 ### RainbowCrack-NG
 
 Free and open-source software to generate and use rainbow tables.
